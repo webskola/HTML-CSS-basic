@@ -1,0 +1,17 @@
+# Ievads HTML
+
+## WEB
+
+0. Timotijs Džons "Tims" Bērnerss-Lī (Timothy John "Tim" Berners-Lee, dzimis 1955. gada 8. jūnijā Londonā), pazīstams arī kā TimBL, ir globālā tīmekļa izgudrotājs un globālā tīmekļa konsorcija pašreizējais vadītājs.<sup>[1][1]</sup>
+0. Vispasaules Tīmekļa konsorcijs (angļu: World Wide Web Consortium jeb W3C) ir konsorcijs, kas veido standartus jeb "rekomendācijas" vispasaules tīmeklim. Konsorciju vada Tims Bērnerss-Lī, sākotnējais URL (Vienotais resursu vietrādis), HTTP (Hiperteksta transporta protokols) un HTML (Hiperteksta iezīmju valoda) radītājs.<sup>[2][2]</sup>
+0. Hiperteksta iezīmēšanas valoda jeb HTML (no angļu: HyperText Markup Language) ir iezīmēšanas valoda, kas ir izstrādāta tīmekļa lappušu un citas pārlūkprogrammā attēlojamas informācijas glabāšanai. Sākotnēji definēta kā vienkārša SGML implementācija, HTML šobrīd ir starptautisks standarts (ISO/IEC 15445:2000). HTML specifikāciju pamatā uztur Vispasaules Tīmekļa Konsorcijs (W3C).[3][3]
+
+## Iezīmes (angl. *tag*) uzbūve
+
+- Simbols &lt;
+- Taga nosaukums
+- Simbols &gt;
+
+[1]: https://lv.wikipedia.org/wiki/Tims_B%C4%93rnerss-L%C4%AB
+[2]: https://lv.wikipedia.org/wiki/Vispasaules_T%C4%ABmek%C4%BCa_konsorcijs
+[3]: https://lv.wikipedia.org/wiki/HTML
