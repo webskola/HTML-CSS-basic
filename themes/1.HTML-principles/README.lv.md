@@ -27,12 +27,27 @@ HTML specifikāciju pamatā uztur Vispasaules Tīmekļa Konsorcijs (W3C) ([wikip
 - Simbols &gt;
 
 ### Pāra un nepāra tagi
-- &lt;taga_nosaukums&gt;…&lt;/taga_nosaukums&gt;
-- &lt;taga_nosaukums /&gt; vai &lt;taga_nosaukums&gt;
+- &lt;taga\_nosaukums&gt;…&lt;/taga\_nosaukums&gt;
+- &lt;taga\_nosaukums /&gt; vai &lt;taga\_nosaukums&gt;
 
+### Virsraksti
+
+- h1
+- h2
+- &hellip;
+- h6
+
+### Rindkopa
+
+- p
+
+## Piemērs
+
+[saite][6]
 
 [1]: https://lv.wikipedia.org/wiki/Tims_B%C4%93rnerss-L%C4%AB
 [2]: https://lv.wikipedia.org/wiki/Vispasaules_T%C4%ABmek%C4%BCa_konsorcijs
 [3]: https://lv.wikipedia.org/wiki/HTML
 [4]: http://www.w3.org/Consortium/ "World Wide Web Consortium (W3C)"
 [5]: http://html5doctor.com/ "HTML5 Doctor, helping you implement HTML5 today"
+[6]: ./index.lv.html "Piemērs"
