@@ -43,7 +43,7 @@ HTML specifikāciju pamatā uztur Vispasaules Tīmekļa Konsorcijs (W3C) ([wikip
 
 ## Piemērs
 
-[saite][6]
+[Dokumenta struktūra][6]
 
 [1]: https://lv.wikipedia.org/wiki/Tims_B%C4%93rnerss-L%C4%AB
 [2]: https://lv.wikipedia.org/wiki/Vispasaules_T%C4%ABmek%C4%BCa_konsorcijs
