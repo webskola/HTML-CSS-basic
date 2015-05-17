@@ -18,28 +18,77 @@ HTML specifikāciju pamatā uztur Vispasaules Tīmekļa Konsorcijs (W3C) ([wikip
 0. [w3.org][4]
 1. [html5doctor.com][5]
 
-## Iezīmes (angl. *tag*)
+## Sintakse
 
-### Uzbūve
+### Iezīmes (angl. *tag*) uzbūve
 
 - Simbols &lt;
 - Taga nosaukums
 - Simbols &gt;
 
+[Piemērs][6]
+
 ### Pāra un nepāra tagi
 - &lt;taga\_nosaukums&gt;…&lt;/taga\_nosaukums&gt;
 - &lt;taga\_nosaukums /&gt; vai &lt;taga\_nosaukums&gt;
 
-### Virsraksti
+[Piemērs][7]
 
-- h1
-- h2
+### Atribūti
+
+- liek sākuma tagā (gan pāra, gan nepāra)
+- beigu tagā NEKAD neliek
+- <ins>*PAREIZI*</ins>:
+	- `<taga_nosaukums atribūts="vērtība">…</taga\_nosaukums>`
+	- `<taga\_nosaukums atribūts="vērtība" />`;
+	- `<taga\_nosaukums atribūts="vērtība">`;
+- <del>*NEPAREIZI*</del>:
+	- `<taga\_nosaukums atribūts="vērtība">…</taga\_nosaukums atribūts="vērtība">`
+
+#### Flagi
+
+Atribūts bez vērtības.
+
+- `<taga_nosaukums atribūts>…</taga\_nosaukums>`
+- `<taga\_nosaukums atribūts />`;
+- `<taga\_nosaukums atribūts>`;
+
+[Piemērs][8]
+
+## Elementi un to saturs
+
+### Blokveida elementi
+
+#### Virsraksti
+
+- `<h1>…</h1>`
+- `<h2>…</h2>`
 - &hellip;
-- h6
+- `<h6>…</h6>`
 
-### Rindkopa
+#### Rindkopa
 
-- p
+- `<p>… … …</p>`
+
+#### Vienkāršs bloks
+
+	<div>
+		… … … … … …
+		… … … … … …
+		… … … … … …
+	</div>
+
+[Piemērs][9]
+	
+### Rindas elementi
+
+- `<a>…</a>`
+- `<strong>…</strong>`
+- `<em>…</em>`
+- `<span>…</span>`
+- `<br />`
+- `<hr />`
+- &hellip;
 
 ## Piemērs
 
@@ -50,4 +99,7 @@ HTML specifikāciju pamatā uztur Vispasaules Tīmekļa Konsorcijs (W3C) ([wikip
 [3]: https://lv.wikipedia.org/wiki/HTML
 [4]: http://www.w3.org/Consortium/ "World Wide Web Consortium (W3C)"
 [5]: http://html5doctor.com/ "HTML5 Doctor, helping you implement HTML5 today"
-[6]: ./index.lv.html "Piemērs"
+[6]: ./index.lv.html "Dokuments"
+[7]: ./tag_containers.lv.html "Pāra un nepāra tagi"
+[8]: ./attributes.lv.html "Atribūti"
+[9]: ./blocks.lv.html "Blokveida elementi"
