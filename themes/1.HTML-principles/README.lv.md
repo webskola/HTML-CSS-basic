@@ -40,18 +40,18 @@ HTML specifikāciju pamatā uztur Vispasaules Tīmekļa Konsorcijs (W3C) ([wikip
 - beigu tagā NEKAD neliek
 - <ins>*PAREIZI*</ins>:
 	- `<taga_nosaukums atribūts="vērtība">…</taga\_nosaukums>`
-	- `<taga\_nosaukums atribūts="vērtība" />`;
-	- `<taga\_nosaukums atribūts="vērtība">`;
+	- `<taga_nosaukums atribūts="vērtība" />`;
+	- `<taga_nosaukums atribūts="vērtība">`;
 - <del>*NEPAREIZI*</del>:
-	- `<taga\_nosaukums atribūts="vērtība">…</taga\_nosaukums atribūts="vērtība">`
+	- `<taga_nosaukums atribūts="vērtība">…</taga_nosaukums atribūts="vērtība">`
 
 #### Flagi
 
 Atribūts bez vērtības.
 
-- `<taga_nosaukums atribūts>…</taga\_nosaukums>`
-- `<taga\_nosaukums atribūts />`;
-- `<taga\_nosaukums atribūts>`;
+- `<taga_nosaukums atribūts>…</taga_nosaukums>`
+- `<taga_nosaukums atribūts />`;
+- `<taga_nosaukums atribūts>`;
 
 [Piemērs][8]
 
@@ -70,6 +70,10 @@ Atribūts bez vērtības.
 
 - `<p>… … …</p>`
 
+#### Horizontālā svītra
+
+- `<hr />`
+
 #### Vienkāršs bloks
 
 	<div>
@@ -80,19 +84,16 @@ Atribūts bez vērtības.
 
 [Piemērs][9]
 	
-### Rindas elementi
+### Rindas (__inline__) elementi
 
 - `<a>…</a>`
 - `<strong>…</strong>`
 - `<em>…</em>`
 - `<span>…</span>`
 - `<br />`
-- `<hr />`
 - &hellip;
 
-## Piemērs
-
-[Dokumenta struktūra][6]
+[Piemērs][10]
 
 [1]: https://lv.wikipedia.org/wiki/Tims_B%C4%93rnerss-L%C4%AB
 [2]: https://lv.wikipedia.org/wiki/Vispasaules_T%C4%ABmek%C4%BCa_konsorcijs
@@ -103,3 +104,5 @@ Atribūts bez vērtības.
 [7]: ./tag_containers.lv.html "Pāra un nepāra tagi"
 [8]: ./attributes.lv.html "Atribūti"
 [9]: ./blocks.lv.html "Blokveida elementi"
+[10]: ./inline.lv.html "Inline elementi"
+
