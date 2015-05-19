@@ -93,7 +93,34 @@ Atribūts bez vērtības.
 - `<br />`
 - &hellip;
 
+Par `<strong>` un `em` &mdash; sk. [HTML5 Doctor][11]
+
 [Piemērs][10]
+
+## Speciālie simboli
+
+Angl. __HTML entities__
+
+Vērtīgas norādes:
+
+- [w3schools][12]
+- [w3schools][15]
+- [wikipedia][13]
+- [htmlarrows.com][14]
+
+### Uzbūve
+
+- `&`
+	- nosaukums vai
+	- `#` un numurs (decimālais) vai
+	- `#x` un numurs (heksadecimālais)
+- `;`
+
+### Piemērs
+
+- &cent;
+- &#162;
+- &#xA2;
 
 [1]: https://lv.wikipedia.org/wiki/Tims_B%C4%93rnerss-L%C4%AB
 [2]: https://lv.wikipedia.org/wiki/Vispasaules_T%C4%ABmek%C4%BCa_konsorcijs
@@ -105,4 +132,8 @@ Atribūts bez vērtības.
 [8]: ./attributes.lv.html "Atribūti"
 [9]: ./blocks.lv.html "Blokveida elementi"
 [10]: ./inline.lv.html "Inline elementi"
-
+[11]: http://html5doctor.com/i-b-em-strong-element/ "The i, b, em, &amp; strong elements | HTML5 Doctor"
+[12]: http://www.w3schools.com/html/html_entities.asp
+[13]: http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
+[14]: http://htmlarrows.com/
+[15]: http://www.w3schools.com/html/html_symbols.asp
