@@ -29,8 +29,8 @@ HTML specifikāciju pamatā uztur Vispasaules Tīmekļa Konsorcijs (W3C) ([wikip
 [Piemērs][6]
 
 ### Pāra un nepāra tagi
-- &lt;taga\_nosaukums&gt;…&lt;/taga\_nosaukums&gt;
-- &lt;taga\_nosaukums /&gt; vai &lt;taga\_nosaukums&gt;
+- `<taga_nosaukums>…</taga_nosaukums>`
+- `<taga_nosaukums />` vai `<taga_nosaukums>`
 
 [Piemērs][7]
 
@@ -39,7 +39,7 @@ HTML specifikāciju pamatā uztur Vispasaules Tīmekļa Konsorcijs (W3C) ([wikip
 - liek sākuma tagā (gan pāra, gan nepāra)
 - beigu tagā NEKAD neliek
 - <ins>*PAREIZI*</ins>:
-	- `<taga_nosaukums atribūts="vērtība">…</taga\_nosaukums>`
+	- `<taga_nosaukums atribūts="vērtība">…</taga_nosaukums>`
 	- `<taga_nosaukums atribūts="vērtība" />`;
 	- `<taga_nosaukums atribūts="vērtība">`;
 - <del>*NEPAREIZI*</del>:
