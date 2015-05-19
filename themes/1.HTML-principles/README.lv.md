@@ -118,9 +118,9 @@ Vērtīgas norādes:
 
 ### Piemērs
 
-- &cent;
-- &#162;
-- &#xA2;
+- `&cent;`
+- `&#162;`
+- `&#xA2;`
 
 [1]: https://lv.wikipedia.org/wiki/Tims_B%C4%93rnerss-L%C4%AB
 [2]: https://lv.wikipedia.org/wiki/Vispasaules_T%C4%ABmek%C4%BCa_konsorcijs
