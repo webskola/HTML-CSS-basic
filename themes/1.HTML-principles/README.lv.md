@@ -93,7 +93,7 @@ Atribūts bez vērtības.
 - `<br />`
 - &hellip;
 
-Par `<strong>` un `em` &mdash; sk. [HTML5 Doctor][11]
+Par `<strong>` un `<em>` &mdash; sk. [HTML5 Doctor][11]
 
 [Piemērs][10]
 
@@ -116,11 +116,35 @@ Vērtīgas norādes:
 	- `#x` un numurs (heksadecimālais)
 - `;`
 
+#### Skaitīšanas sistēmas
+
+- [Binārā][16]
+- [Oktālā][17]
+- Decimālā
+- [Heksadecimālā][18]
+
+
 ### Piemērs
 
 - `&cent;`
 - `&#162;`
 - `&#xA2;`
+
+## Kodējums
+
+- [Unikods][19]
+- [Simbolu kopas][20]
+
+## Vienkāršo elementu apkopojums
+
+- h1 &hellip; h6 &mdash; blokveida satura elementi, virsraksti;
+- p &mdash; blokveida satura elements, rindkopa (paragrāfs);
+- div &mdash; vienkāršs blokveida elements (lapas uzbūvei);
+- hr &mdash; blokveida satura elements, horizontālā līnija;
+- a &mdash; rindas elements, enkurs, (norāžu (*link*) izveidošanai);
+- b, strong &mdash; rindas elements, treknraksts bez/ar uzsvaru (sk. [HTML5 Doctor][11]);
+- i, em &mdash; rindas elements, slīpraksts bez/ar uzsvaru (sk. [HTML5 Doctor][11]);
+- span &mdash; vienkāršs rindas elements.
 
 [1]: https://lv.wikipedia.org/wiki/Tims_B%C4%93rnerss-L%C4%AB
 [2]: https://lv.wikipedia.org/wiki/Vispasaules_T%C4%ABmek%C4%BCa_konsorcijs
@@ -137,3 +161,8 @@ Vērtīgas norādes:
 [13]: http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
 [14]: http://htmlarrows.com/
 [15]: http://www.w3schools.com/html/html_symbols.asp
+[16]: http://lv.wikipedia.org/wiki/Binārā_skaitīšanas_sistēma
+[17]: http://lv.wikipedia.org/wiki/Oktālā_skaitīšanas_sistēma
+[18]: http://lv.wikipedia.org/wiki/Heksadecimālā_skaitīšanas_sistēma
+[19]: http://www.w3.org/International/articles/definitions-characters/
+[20]: http://www.w3schools.com/tags/ref_charactersets.asp
