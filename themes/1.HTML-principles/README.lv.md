@@ -103,8 +103,8 @@ Angl. __HTML entities__
 
 Vērtīgas norādes:
 
-- [w3schools][12]
-- [w3schools][15]
+- [w3schools: html_entities][12]
+- [w3schools: html_symbols][15]
 - [wikipedia][13]
 - [htmlarrows.com][14]
 
@@ -134,6 +134,9 @@ Vērtīgas norādes:
 
 - [Unikods][19]
 - [Simbolu kopas][20]
+- kodējumu HTML norāda ([info][21]):
+	- `<meta charset="utf-8" />` &mdash; HTML5
+	- `<meta http-equiv="content-type" content="text/html; charset=UTF-8">` &mdash; HTML4
 
 ## Vienkāršo elementu apkopojums
 
@@ -145,6 +148,20 @@ Vērtīgas norādes:
 - b, strong &mdash; rindas elements, treknraksts bez/ar uzsvaru (sk. [HTML5 Doctor][11]);
 - i, em &mdash; rindas elements, slīpraksts bez/ar uzsvaru (sk. [HTML5 Doctor][11]);
 - span &mdash; vienkāršs rindas elements.
+
+# Uzdevums (HTML)
+
+Sastādīt divus HTML dokumentus, **katrā** ar:
+
+0. Vienu virsrakstu
+0. Diviem apakšvirsrakstiem
+0. Divām rindkopām (attiecīgām apakšvirsrakstiem), kurās ir:
+	- treknrakstā iezīmēti vārdi
+	- slīprakstā iezīmēti vārdi
+	- norāde uz otru dokumentu
+	- norāde uz ārējo resursu, kas atveras jaunajā cilnē
+
+Tekstam izmantot *Lorem ipsum* ģenerātoru, tādu kā [generator.lorem-ipsum.info][22]
 
 [1]: https://lv.wikipedia.org/wiki/Tims_B%C4%93rnerss-L%C4%AB
 [2]: https://lv.wikipedia.org/wiki/Vispasaules_T%C4%ABmek%C4%BCa_konsorcijs
@@ -166,3 +183,5 @@ Vērtīgas norādes:
 [18]: http://lv.wikipedia.org/wiki/Heksadecimālā_skaitīšanas_sistēma
 [19]: http://www.w3.org/International/articles/definitions-characters/
 [20]: http://www.w3schools.com/tags/ref_charactersets.asp
+[21]: http://www.w3schools.com/tags/att_meta_http_equiv.asp
+[22]: http://generator.lorem-ipsum.info/
