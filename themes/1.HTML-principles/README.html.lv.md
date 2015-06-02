@@ -1,4 +1,4 @@
-# Ievads HTML
+# Tīmeklis un HTML
 
 ## WEB
 
@@ -8,10 +8,12 @@
 	- [wikipedia.org][1]
 	- [w3.org][4]
 
-0. Vispasaules Tīmekļa konsorcijs (angl.: *World Wide Web Consortium* jeb *W3C*) ir konsorcijs, kas veido standartus jeb "rekomendācijas" vispasaules tīmeklim ([wikipedia.org][2]).
+0. Vispasaules Tīmekļa konsorcijs (angl.: *World Wide Web Consortium* jeb *W3C*) ([wikipedia.org][2]):
+	- standarti jeb "rekomendācijas"
 
-0. Hiperteksta iezīmēšanas valoda jeb HTML (no angļu: HyperText Markup Language) ir iezīmēšanas valoda, kas ir izstrādāta tīmekļa lappušu un citas pārlūkprogrammā attēlojamas informācijas glabāšanai.
-HTML specifikāciju pamatā uztur Vispasaules Tīmekļa Konsorcijs (W3C) ([wikipedia.org][3]).
+0. Hiperteksta iezīmēšanas valoda jeb HTML (no angļu: HyperText Markup Language):
+	- tīmekļa lappušu izstrāde;
+	- specifikāciju pamatā uztur W3C ([wikipedia.org][3]).
 
 ### Noderīgās saites
 
@@ -45,7 +47,7 @@ HTML specifikāciju pamatā uztur Vispasaules Tīmekļa Konsorcijs (W3C) ([wikip
 - <del>*NEPAREIZI*</del>:
 	- `<taga_nosaukums atribūts="vērtība">…</taga_nosaukums atribūts="vērtība">`
 
-#### Flagi
+#### Flags
 
 Atribūts bez vērtības.
 
@@ -118,17 +120,19 @@ Vērtīgas norādes:
 
 #### Skaitīšanas sistēmas
 
-- [Binārā][16]
-- [Oktālā][17]
-- Decimālā
-- [Heksadecimālā][18]
+- [Binārā][16];
+- [Oktālā][17];
+- Decimālā;
+- [Heksadecimālā][18]:
+	- *html-enities* veidošanai;
+	- CSS krāsās (vēlāk).
 
 
 ### Piemērs
 
-- `&cent;`
-- `&#162;`
-- `&#xA2;`
+- `&cent;` — &cent;
+- `&#162;` — &#162;
+- `&#xA2;` — &#xA2;
 
 ## Kodējums
 
@@ -149,7 +153,7 @@ Vērtīgas norādes:
 - i, em &mdash; rindas elements, slīpraksts bez/ar uzsvaru (sk. [HTML5 Doctor][11]);
 - span &mdash; vienkāršs rindas elements.
 
-# Uzdevums (HTML)
+# Uzdevums \#1
 
 Sastādīt divus HTML dokumentus, **katrā** ar:
 
@@ -162,6 +166,23 @@ Sastādīt divus HTML dokumentus, **katrā** ar:
 	- norāde uz ārējo resursu, kas atveras jaunajā cilnē
 
 Tekstam izmantot *Lorem ipsum* ģenerātoru, tādu kā [generator.lorem-ipsum.info][22]
+
+# Uzdevums \#2
+
+Izveidot *web*-lapas izkārtojuma pamatelementu (augošs uzdevums).
+	
+	doctype html
+	html
+	|
+	+— head
+	|	|
+	|	+— title
+	|
+	+— body
+		|
+		h1 …
+		|
+		p …
 
 [1]: https://lv.wikipedia.org/wiki/Tims_B%C4%93rnerss-L%C4%AB
 [2]: https://lv.wikipedia.org/wiki/Vispasaules_T%C4%ABmek%C4%BCa_konsorcijs
