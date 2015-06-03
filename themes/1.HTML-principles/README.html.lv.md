@@ -153,6 +153,77 @@ Vērtīgas norādes:
 - i, em &mdash; rindas elements, slīpraksts bez/ar uzsvaru (sk. [HTML5 Doctor][11]);
 - span &mdash; vienkāršs rindas elements.
 
+# Strukturētie elementi
+
+## Saraksti
+
+- numurēts `ol`
+- nenumurēts `ul`
+
+Struktūra
+
+	ol vai ul
+	|
+	+– li teksts
+	|
+	+– li teksts
+	|
+	+— …
+	|
+	+– li teksts
+
+
+## Tabulas
+
+Vienkārša struktūra
+
+	table
+	|
+	+— tr
+	|	|
+	|	+— th teksts
+	|	|
+	|	+— th teksts
+	|	|
+	|	+— th teksts
+	|
+	+— tr
+	|	|
+	|	+— td teksts
+	|	|
+	|	+— td teksts
+	|	|
+	|	+— td teksts
+	…
+
+Pilna struktūra
+
+	table
+	|
+	+— thead
+	|	|
+	|	+— tr
+	|		|
+	|		+— th teksts
+	|		|
+	|		+— th teksts
+	|		|
+	|		+— th teksts
+	|
+	|
+	+— tbody
+		|
+		+— tr
+		|	|
+		|	+— td teksts
+		|	|
+		|	+— td teksts
+		|	|
+		|	+— td teksts
+		…
+	   
+
+
 # Uzdevums \#1
 
 Sastādīt divus HTML dokumentus, **katrā** ar:

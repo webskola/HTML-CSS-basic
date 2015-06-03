@@ -1,0 +1,7 @@
+span {
+	text-transform: uppercase;
+}
+
+a + span {
+	text-decoration: overline;
+}

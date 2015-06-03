@@ -29,7 +29,79 @@
 
 [Piemērs][3]
 
+## Selektori
+
+### Elementu selektori
+
+- sakrīt ar taga nosaukumu;
+- atlasa visus elementus.
+
+Piemērs:
+
+	p {
+		color: red;
+	}
+
+### Klašu selektori
+
+- sākas ar `.`
+- veido elementu grupu
+
+[Piemērs][4]:
+
+	.red {
+		color: red;
+	}
+
+### ID selektori
+
+- sākas ar `#`
+- norāda uz unikālo elementu
+- nedrīkst atkārtoties
+
+[Piemērs][5]:
+
+	#info {
+		background-color: lightgreen;
+	}
+
+## Saliktie selektori
+
+### Konteksta selektors
+
+Atlasa elementu/-us, kas ir iekš kāda elementa, neatkarīgi no struktūras.
+
+[Piemērs][6]:
+
+	p span {
+		background-color: lightblue;
+	}
+
+### *Child*-selektors
+
+Atlasa elementu/-us, kas ir iekš kāda elementa un ir tā tiešie pēcteči.
+
+[Piemērs][7]:
+
+	p span {
+		background-color: lightblue;
+	}
+
+### Kaimiņselektors
+
+Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
+
+[Piemērs][8]:
+
+	a + span {
+		text-decoration: overline;
+	}
+
 [1]: http://www.w3schools.com/css/css_intro.asp
 [2]: https://jigsaw.w3.org/css-validator/
 [3]: ./css.html
-
+[4]: ./class.html
+[5]: ./id.html
+[6]: ./context.html
+[7]: ./child.html
+[8]: ./sibling.html
