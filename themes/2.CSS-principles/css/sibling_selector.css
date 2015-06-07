@@ -5,3 +5,7 @@ span {
 a + span {
 	text-decoration: overline;
 }
+
+strong ~ em {
+	background-color: lightcoral;
+}
