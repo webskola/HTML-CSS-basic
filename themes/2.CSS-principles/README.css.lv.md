@@ -97,6 +97,51 @@ Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
 		text-decoration: overline;
 	}
 
+### Atribūtu selektors
+
+	[atribūts] {
+		…
+	}
+	
+	[atribūts = "vērtība"] {
+		…
+	}
+	
+	[atribūts ^= "sākas ar"] {
+		…
+	}
+	
+	[atribūts *= "satur"] {
+		…
+	}
+	
+	[atribūts $= "beidzas ar"] {
+		…
+	}
+
+[Piemērs][9]
+
+## Mērvienības
+
+[Info][10]
+
+### Absolūtās
+
+- px (biežāk)
+- cm
+- mm
+- in
+- pt
+- px
+
+### Relatīvās
+
+- em
+- rem
+- %
+- utt.
+
+
 [1]: http://www.w3schools.com/css/css_intro.asp
 [2]: https://jigsaw.w3.org/css-validator/
 [3]: ./css.html
@@ -105,3 +150,5 @@ Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
 [6]: ./context.html
 [7]: ./child.html
 [8]: ./sibling.html
+[9]: ./attribute.html
+[10]: http://www.w3schools.com/cssref/css_units.asp
