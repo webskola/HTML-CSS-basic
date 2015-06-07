@@ -1,0 +1,70 @@
+div {
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+}
+
+.bg1 {
+  background: #fc9;
+}
+
+.bg2 {
+  background-color: #9cf;
+}
+
+[class ^="bg-img"] {
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+  background-image: url("../img/1616959.jpg");
+}
+
+[class ^="bg-img"] a {
+  color: #fff;
+}
+
+.bg-img1 {
+  background-position: left bottom;
+}
+
+.bg-img2 {
+  background-position: center;
+}
+
+.bg-img3 {
+  background-position: 1939px -476px;
+}
+
+.bg-img-size-cover {
+  background-size: cover;
+}
+
+.bg-img-size-contain {
+  background-size: contain;
+}
+
+[class ^="bg-img-rep"] {
+  width: 500px;
+  height: 500px;
+  background-image: url("../img/Emotes-face-smile-icon.png");
+}
+
+.bg-img-rep-1 {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-img-rep-x {
+  background-repeat: repeat-x;
+}
+
+.bg-img-rep-y {
+  background-repeat: repeat-y;
+}
+
+.bg-all {
+  width: 640px;
+  height: 480px;
+  background: #9c6 center repeat-y url("../img/1616959.jpg");
+  background-size: 50%;
+}

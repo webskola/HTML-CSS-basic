@@ -145,6 +145,16 @@ Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
 - %
 - utt.
 
+Piemērs: elementa izmērs
+	
+	<div class="myelmt">…</div>
+	
+	.myelmt {
+		width: 100px;
+		height: 50px;
+	}
+
+
 ## Krāsas
 
 - RGB
@@ -163,6 +173,21 @@ Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
 	- lightblue *u.t.t.*
 	- [info][15]
 
+## Fons <small>[info][16]</small>
+
+	background: [color][image][repeat][attachment][position]
+	
+- background
+	- color
+	- image
+	- repeat
+	- attachment
+	- position
+- background-size (atsevišķi)
+
+[Piemērs][17]
+	
+
 [1]: http://www.w3schools.com/css/css_intro.asp
 [2]: https://jigsaw.w3.org/css-validator/
 [3]: ./css.html
@@ -178,3 +203,5 @@ Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
 [13]: http://www.w3schools.com/css/css_combinators.asp
 [14]: https://css-tricks.com/yay-for-hsla/
 [15]: http://www.w3schools.com/cssref/css_colornames.asp
+[16]: http://www.w3schools.com/css/css_background.asp
+[17]: ./background.html
