@@ -1,0 +1,28 @@
+li {
+	margin: 1.5rem 0;
+}
+
+/*visiem linkiem — liels fonts*/
+[href] {
+	font-size: 1.5rem;
+}
+
+/*jauajā cilnē — ar fonu*/
+[target = "_blank"] {
+	background-color: lightblue;
+}
+
+/*sākas ar http — rāmītis*/
+[href ^= "http"] {
+	outline: 1px solid red;
+}
+
+/*saite uz Webskolu — slīprakstā*/
+[href *= "webskola"] {
+	font-style: italic;
+}
+
+/*beizdas ar .com — sarkans fonts*/
+[href $= "com"] {
+	color: red;
+}
