@@ -1,0 +1,60 @@
+body{
+  font-size: 18px;
+}
+
+p.style {
+  font-style: italic;
+}
+
+p.variant {
+  font-variant: small-caps;
+}
+
+p.weight {
+  font-weight: bold;
+}
+
+p.size {
+  font-size: 2.7rem;
+}
+
+p.family.c {
+  font-family: cursive;
+}
+
+p.family.f {
+  font-family: fantasy;
+}
+
+p.family.m {
+  font-family: monospace;
+}
+
+p.family.sa {
+  font-family: sans-serif;
+}
+
+p.family.se {
+  font-family: serif;
+}
+
+p.family.common {
+  /*font-family: "Times New Roman", Georgia, serif;*/
+  font-family: "Courier New", Courier, monospace;
+}
+
+p.all {
+  /*
+    normal = style + variant + weight
+  */
+  font: normal 20px/1.5 Arial, Verdana, sans-serif;
+  font: normal bold 20px/1.5 Arial, Verdana, sans-serif;
+  font: italic normal 20px/1.5 Arial, Verdana, sans-serif;
+
+  font: italic 20px/1.5 Arial, Verdana, sans-serif;
+  font: small-caps 20px/1.5 Arial, Verdana, sans-serif;
+  font: bold 20px/1.5 Arial, Verdana, sans-serif;
+
+  font: italic bold 20px/1.5 Arial, Verdana, sans-serif;
+  font: small-caps bold 20px/1.5 Arial, Verdana, sans-serif;
+}
