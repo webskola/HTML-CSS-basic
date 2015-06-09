@@ -9,7 +9,7 @@
 
 0. pašā html-elementā `<span style="…">…</span>`
 1. html-elementā `<style>…</style>` (iekš `<head>…</head>`)
-2. ārējā failā *.css ar `<link rel="stylesheet" href="ceļš/uz/failu.css" />`
+2. ārējā failā &#42;.css ar `<link rel="stylesheet" href="ceļš/uz/failu.css" />`
 	- pārlūks iekešo &rarr; ātrāk ielādējas
 	- HTML atsevišķi no CSS &rarr; pārskatāmāk
 
@@ -101,9 +101,7 @@ Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
 		…
 	}
 
-### Atribūtu selektors
-
-[Info][11]
+### Atribūtu selektors <small>[Info][11]</small>
 
 	[atribūts] {
 		…
@@ -186,7 +184,42 @@ Piemērs: elementa izmērs
 - background-size (atsevišķi)
 
 [Piemērs][17]
+
+## Teksts <small>[info][18]</small>
+
+### Krāsa
+
+	color: css krāsa
 	
+### Teksta īpašības
+
+	text-align: left|right|center|justify|initial|inherit;
+	text-decoration: none|underline|overline|line-through|initial|inherit;
+	text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
+	text-indent: 0|vērtība px/em/rem/% utt.|initial|inherit;
+	
+	line-height: normal|number|length|initial|inherit;
+	vertical-align: baseline|vērtība px/em/rem/% utt.|sub|super|top|text-top|middle|bottom|text-bottom|initial|inherit;
+	white-space: normal|nowrap|pre|pre-line|pre-wrap|initial|inherit;
+	
+	letter-spacing: normal|vērtība px/em/rem/% utt.|initial|inherit;
+	word-spacing: normal|vērtība px/em/rem/% utt.|initial|inherit;
+
+### Šrifts <small>[info][19]</small>
+
+Kopējā īpašībā vērtībās jānorāda tieši tādā secībā.
+
+	font: [[font-style] [font-variant] [font-weight]] font-size/line-height font-family|initial|inherit;
+
+Atsevišķas īpašības:
+	
+	font-style: normal|italic|oblique|initial|inherit;
+	font-variant: normal|small-caps|initial|inherit;
+	font-weight: normal|bold|initial|inherit;
+	font-size: medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|vērtība px/em/rem/% utt.|initial|inherit;
+	font-family: nosaukums|"nosaukums vairākiem vārdiem"|initial|inherit;
+	
+[Piemērs][20]
 
 [1]: http://www.w3schools.com/css/css_intro.asp
 [2]: https://jigsaw.w3.org/css-validator/
@@ -205,3 +238,6 @@ Piemērs: elementa izmērs
 [15]: http://www.w3schools.com/cssref/css_colornames.asp
 [16]: http://www.w3schools.com/css/css_background.asp
 [17]: ./background.html
+[18]: http://www.w3schools.com/css/css_text.asp
+[19]: http://www.w3schools.com/css/css_font.asp
+[20]: ./font.html
