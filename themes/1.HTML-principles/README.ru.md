@@ -141,16 +141,39 @@ HTML документ размечается специальными ключе
 
 [Пример][10]
 
+### Вложение элементов
+
+#### Вложение однострочное
+
+```html
+<p>Donec sed odio dui. <strong>Nulla vitae</strong> elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue <em>laoreet</em> rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+```
+
+#### Вложение многострочное
+
+```html
+<section>
+	<h1>Hello world!</h1>
+	<div>
+		<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+	</div>
+</section>
+```
+
+### Пробельные символы
+
+Любые использованые в коде переносы строк, табы, несколько пробелов подряд и другие пробельные символы в браузере отображаются как один пробел.
+
+```html
+Donec sed odio dui.       Nulla vitae elit libero,
+a pharetra augue. 	Donec id elit non mi porta gravida at eget metus.
+```
+
+Результат: Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.
+
 ### Специальные символы
 
 Англ. __HTML entities__
-
-Полезные ссылки:
-
-- [w3schools: html_entities][12]
-- [w3schools: html_symbols][15]
-- [wikipedia][13]
-- [htmlarrows.com][14]
 
 #### Структура спецсимволов
 
@@ -166,13 +189,46 @@ HTML документ размечается специальными ключе
 - `&#162;` — &#162;
 - `&#xA2;` — &#xA2;
 
+Полезные ссылки:
+
+- [w3schools: html_entities][12]
+- [w3schools: html_symbols][15]
+- [wikipedia][13]
+- [htmlarrows.com][14]
+
+### Базовая структура HTML-документа
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<title>First web page</title>
+	</head>
+	<body>
+		<h1>Hello world!</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+	</body>
+</html>
+```
+
+Пояснение:
+- `<!doctype html>` — декларация HTML-документа, пишется в самом начале документа
+- `<html>` — корневой элемент, объединяющий элементы `<head>` и `<body>`
+- `<head>` — заголовочная часть HTML-документа, предназначена для технической информации адресованной браузеру и другим сервисам
+- `<body>` — основная часть HTML-документа, предназначена для информации отображаемой на сайте
+- `<title>` — заголовок документа, отображается в табе или закладках
+
 ### Кодировка
 
+Кодировку HTML указывают внутри элемента `<head>` ([info][21]):
+- `<meta charset="utf-8" />` &mdash; HTML5
+- `<meta http-equiv="content-type" content="text/html; charset=UTF-8">` &mdash; HTML4
+
+Ссылки:
 - [Юникод][19]
 - [Набор символов][20]
-- кодировку HTML указывают ([info][21]):
-	- `<meta charset="utf-8" />` &mdash; HTML5
-	- `<meta http-equiv="content-type" content="text/html; charset=UTF-8">` &mdash; HTML4
+
+Сам файл должен быть закодирован в UTF-8 формат (Atom это делает по-умолчанию).
 
 ### Обобщение простых элементов
 
