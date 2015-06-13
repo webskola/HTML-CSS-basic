@@ -112,6 +112,12 @@ HTML документ размечается специальными ключе
 <hr />
 ```
 
+#### Перенос строки
+
+```html
+<br />
+```
+
 #### Простой блок
 
 ```html
@@ -252,14 +258,14 @@ a pharetra augue. 	Donec id elit non mi porta gravida at eget metus.
 </ol>
 ```
 
-Маркированные
+Маркерованные
 ```html
-<ul>
+<ol>
 	<li>текст</li>
 	<li>текст</li>
 	<li>текст</li>
 	…
-</ul>
+</ol>
 ```
 
 ## Таблицы
@@ -302,11 +308,19 @@ a pharetra augue. 	Donec id elit non mi porta gravida at eget metus.
 </table>
 ```
 
+# Структурные элементы
+
+- `<header>` — «шапка», заголовочная часть сайта, блока, раздела и т. п.
+- `<footer>` — «подвал», заключительная часть сайта, блока, раздела и т. п.
+- `<section>` — некий раздел в документе, например, тематически сгрупперованная информация, часто с заголовком.
+- `<nav>` — блок с навигацией.
+- `<article>` — содержание, например, статья в блоге, журнале, газете, комментарий, пост на форуме и т. д. Все что может рассматриваться как самостоятельный блок информации.
 
 ### Полезные ссылки
 
 0. [w3.org][4]
 1. [html5doctor.com][5]
+1. [MDN][23]
 
 [1]: https://ru.wikipedia.org/wiki/Бернерс-Ли,_Тим
 [2]: https://ru.wikipedia.org/wiki/Консорциум_Всемирной_паутины
@@ -329,3 +343,4 @@ a pharetra augue. 	Donec id elit non mi porta gravida at eget metus.
 [20]: http://www.w3schools.com/tags/ref_charactersets.asp
 [21]: http://www.w3schools.com/tags/att_meta_http_equiv.asp
 [22]: http://generator.lorem-ipsum.info/
+[23]: https://developer.mozilla.org/ru/docs/Web/HTML
