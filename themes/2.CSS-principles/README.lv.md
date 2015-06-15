@@ -83,7 +83,7 @@ Atlasa elementu/-us, kas ir iekš kāda elementa un ir tā tiešie pēcteči.
 
 [Piemērs][7]
 
-	p span {
+	p > span {
 		…
 	}
 
@@ -249,7 +249,6 @@ Atsevišķas īpašības:
 [18]: http://www.w3schools.com/css/css_text.asp
 [19]: http://www.w3schools.com/css/css_font.asp
 [20]: ./font.html
-
 [21]: http://lv.wikipedia.org/wiki/Binārā_skaitīšanas_sistēma
 [22]: http://lv.wikipedia.org/wiki/Oktālā_skaitīšanas_sistēma
 [23]: http://lv.wikipedia.org/wiki/Heksadecimālā_skaitīšanas_sistēma
