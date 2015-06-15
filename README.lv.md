@@ -8,7 +8,7 @@ __Rezultāts:__ Vienkārša korporatīva vietne
 
 ## Tēmas
 
-1. [HTML](themes/1.HTML-principles/README.html.lv.md)
+1. [HTML](themes/1.HTML-principles/README.lv.md)
 	- sintakse: iezīme (__tag__) (pāra, nepāra), atribūts (ar vērtību, flags);
 	- elements un tā saturs, iekļautie elementi;
 	- atstarpes simboli, speciālie simboli;
@@ -16,9 +16,7 @@ __Rezultāts:__ Vienkārša korporatīva vietne
 	- faila kodējums un lapas kodējums;
 	- vienkāršo elementu apkopojums.
 	- __rezultāts:__ priekšstats par HTML darbības principiem un mērķiem.
-2. [CSS](themes/2.CSS-principles/README.css.lv.md)
+2. [CSS](themes/2.CSS-principles/README.lv.md)
 
-
-## Uzdevums 1
 
 …

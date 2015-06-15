@@ -83,7 +83,7 @@ Atlasa elementu/-us, kas ir iekš kāda elementa un ir tā tiešie pēcteči.
 
 [Piemērs][7]
 
-	p span {
+	p > span {
 		…
 	}
 
@@ -96,7 +96,7 @@ Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
 	a + span {
 		…
 	}
-	
+
 	strong ~ em {
 		…
 	}
@@ -106,19 +106,19 @@ Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
 	[atribūts] {
 		…
 	}
-	
+
 	[atribūts = "vērtība"] {
 		…
 	}
-	
+
 	[atribūts ^= "sākas ar"] {
 		…
 	}
-	
+
 	[atribūts *= "satur"] {
 		…
 	}
-	
+
 	[atribūts $= "beidzas ar"] {
 		…
 	}
@@ -144,9 +144,9 @@ Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
 - utt.
 
 Piemērs: elementa izmērs
-	
+
 	<div class="myelmt">…</div>
-	
+
 	.myelmt {
 		width: 100px;
 		height: 50px;
@@ -174,7 +174,7 @@ Piemērs: elementa izmērs
 ## Fons <small>[info][16]</small>
 
 	background: [color][image][repeat][attachment][position]
-	
+
 - background
 	- color
 	- image
@@ -190,18 +190,18 @@ Piemērs: elementa izmērs
 ### Krāsa
 
 	color: css krāsa
-	
+
 ### Teksta īpašības
 
 	text-align: left|right|center|justify|initial|inherit;
 	text-decoration: none|underline|overline|line-through|initial|inherit;
 	text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
 	text-indent: 0|vērtība px/em/rem/% utt.|initial|inherit;
-	
+
 	line-height: normal|number|length|initial|inherit;
 	vertical-align: baseline|vērtība px/em/rem/% utt.|sub|super|top|text-top|middle|bottom|text-bottom|initial|inherit;
 	white-space: normal|nowrap|pre|pre-line|pre-wrap|initial|inherit;
-	
+
 	letter-spacing: normal|vērtība px/em/rem/% utt.|initial|inherit;
 	word-spacing: normal|vērtība px/em/rem/% utt.|initial|inherit;
 
@@ -212,13 +212,13 @@ Kopējā īpašībā vērtībās jānorāda tieši tādā secībā.
 	font: [[font-style] [font-variant] [font-weight]] font-size/line-height font-family|initial|inherit;
 
 Atsevišķas īpašības:
-	
+
 	font-style: normal|italic|oblique|initial|inherit;
 	font-variant: normal|small-caps|initial|inherit;
 	font-weight: normal|bold|initial|inherit;
 	font-size: medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|vērtība px/em/rem/% utt.|initial|inherit;
 	font-family: nosaukums|"nosaukums vairākiem vārdiem"|initial|inherit;
-	
+
 [Piemērs][20]
 
 [1]: http://www.w3schools.com/css/css_intro.asp
