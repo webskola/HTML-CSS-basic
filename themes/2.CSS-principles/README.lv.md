@@ -129,30 +129,34 @@ Atlasa elementu/-us, kas stāv aiz kāda elementa vienā līmenī.
 
 ### Absolūtās
 
-- px (biežāk)
+- px (izmanto visbiežāk)
 - cm
 - mm
 - in
 - pt
-- px
 
 ### Relatīvās
 
 - em
 - rem
 - %
-- utt.
 
 Piemērs: elementa izmērs
 
-	<div class="myelmt">…</div>
+```html
+<div class="myelmt">…</div>
+```
 
-	.myelmt {
-		width: 100px;
-		height: 50px;
-	}
+```css
+.myelmt {
+	width: 100px;
+	height: 50px;
+}
+```
 
-#### Skaitīšanas sistēmas
+## Krāsas
+
+### Skaitīšanas sistēmas <small>[info][29]</small>
 
 	- [Binārā][21];
 	- [Oktālā][22];
@@ -160,8 +164,6 @@ Piemērs: elementa izmērs
 	- [Heksadecimālā][23]:
 		- *html-enities* veidošanai;
 		- CSS krāsās.
-
-## Krāsas
 
 - RGB
 	- HEX formātā
@@ -180,8 +182,9 @@ Piemērs: elementa izmērs
 	- [info][15]
 
 ## Fons <small>[info][16]</small>
-
+```
 	background: [color][image][repeat][attachment][position]
+```
 
 - background
 	- color
@@ -196,38 +199,77 @@ Piemērs: elementa izmērs
 ## Teksts <small>[info][18]</small>
 
 ### Krāsa
-
-	color: css krāsa
+```
+color: css krāsa
+```
 
 ### Teksta īpašības
+```
+text-align: left|right|center|justify|initial|inherit;
+text-decoration: none|underline|overline|line-through|initial|inherit;
+text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
+text-indent: 0|vērtība px/em/rem/% utt.|initial|inherit;
 
-	text-align: left|right|center|justify|initial|inherit;
-	text-decoration: none|underline|overline|line-through|initial|inherit;
-	text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
-	text-indent: 0|vērtība px/em/rem/% utt.|initial|inherit;
+line-height: normal|number|length|initial|inherit;
+vertical-align: baseline|vērtība px/em/rem/% utt.|sub|super|top|text-top|middle|bottom|text-bottom|initial|inherit;
+white-space: normal|nowrap|pre|pre-line|pre-wrap|initial|inherit;
 
-	line-height: normal|number|length|initial|inherit;
-	vertical-align: baseline|vērtība px/em/rem/% utt.|sub|super|top|text-top|middle|bottom|text-bottom|initial|inherit;
-	white-space: normal|nowrap|pre|pre-line|pre-wrap|initial|inherit;
-
-	letter-spacing: normal|vērtība px/em/rem/% utt.|initial|inherit;
-	word-spacing: normal|vērtība px/em/rem/% utt.|initial|inherit;
+letter-spacing: normal|vērtība px/em/rem/% utt.|initial|inherit;
+word-spacing: normal|vērtība px/em/rem/% utt.|initial|inherit;
+```
 
 ### Šrifts <small>[info][19]</small>
 
 Kopējā īpašībā vērtībās jānorāda tieši tādā secībā.
-
-	font: [[font-style] [font-variant] [font-weight]] font-size/line-height font-family|initial|inherit;
+```
+font: [[font-style] [font-variant] [font-weight]]
+font-size/line-height font-family|initial|inherit;
+```
 
 Atsevišķas īpašības:
-
+```
 	font-style: normal|italic|oblique|initial|inherit;
 	font-variant: normal|small-caps|initial|inherit;
 	font-weight: normal|bold|initial|inherit;
 	font-size: medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|vērtība px/em/rem/% utt.|initial|inherit;
 	font-family: nosaukums|"nosaukums vairākiem vārdiem"|initial|inherit;
+```
 
-[Piemērs][20]
+[Piemērs][20]:
+```css
+p {
+  font: italic bold 20px/1.5 Arial, Verdana, sans-serif;
+}
+```
+
+## Saraksti <small>[info][24]</small>
+
+Kopējā īpašībā vērtībās norāda jebkurā secībā.
+```css
+list-style: list-style-type list-style-position list-style-image
+```
+
+Atsevišķas īpašības:
+
+0. list-style-type — marķiera tips, iespējamās vērtības:
+	- nenumurētajiem sarakstiem: *circle*, *square*, **disc** (noklusējuma)
+	- nenumurētajiem sarakstiem: **decimal** (noklusējuma), *lower-alpha*, *lower-roman*, *upper-alpha*, *upper-roman* utt. — sk. [info][25]
+0. list-style-position — vērības: **outside** (noklusējuma), *inside* — [info][26]
+0. list-style-image — attēls kā marķieris, [info][27], vērtības: **none** (noklusējuma) vai *url("ceļš/uz-failu.ext")*
+
+[Piemērs][28]:
+```html
+<ul class="my-circle">
+	<li>Lorem</li>
+	<li>Ipsum</li>
+	<li>Dolor</li>
+</ul>
+```
+```css
+ul.my-circle {
+  list-style-type: circle;
+}
+```
 
 [1]: http://www.w3schools.com/css/css_intro.asp
 [2]: https://jigsaw.w3.org/css-validator/
@@ -252,3 +294,9 @@ Atsevišķas īpašības:
 [21]: http://lv.wikipedia.org/wiki/Binārā_skaitīšanas_sistēma
 [22]: http://lv.wikipedia.org/wiki/Oktālā_skaitīšanas_sistēma
 [23]: http://lv.wikipedia.org/wiki/Heksadecimālā_skaitīšanas_sistēma
+[24]: http://www.w3schools.com/css/css_list.asp
+[25]: http://www.w3schools.com/cssref/pr_list-style-type.asp
+[26]: http://www.w3schools.com/cssref/pr_list-style-position.asp
+[27]: http://www.w3schools.com/cssref/pr_list-style-image.asp
+[28]: ./list.html
+[29]: https://lv.wikipedia.org/wiki/Skaitīšanas_sistēma

@@ -1,0 +1,28 @@
+ul.my-circle {
+  list-style-type: circle;
+}
+
+ul.my-square {
+  list-style-type: square;
+}
+
+ol.my-alpha {
+  list-style-type: upper-alpha;
+}
+
+ol.my-roman {
+  list-style-type: upper-roman;
+}
+
+.my-pos_inside {
+  list-style-position: inside;
+}
+
+.my-list-img {
+  list-style-image: url("../img/list-style-check.png");
+}
+
+.my-all {
+  list-style: decimal-leading-zero inside url("nonexistent-image");
+  /*list-style: decimal-leading-zero inside url("../img/list-style-check.png");*/
+}
