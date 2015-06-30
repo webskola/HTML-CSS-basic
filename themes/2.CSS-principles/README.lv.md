@@ -289,23 +289,23 @@ Elementam ir 4 sastāvdaļas:
 
 1. Iekšējā atkāpe (*padding*) &mdash; elementa satura atkāpe no tā malām; CSS īpašība `padding`, vērtību norāda ar vienu līdz četiem skaitļiem un mērvienībām pie katra:
 
-        ```css
-        div.my-all {
-                padding: 20px;
-        }
-
-        div.my-cross {
-		padding: 10px 20px; /* augšā un lejā - 10px, malās - 20px */
+	```css
+	div.my-all {
+		padding: 20px;
 	}
 
+	div.my-cross {
+		padding: 10px 20px; /* augšā un lejā - 10px, malās - 20px */
+	}
+	
 	div.my-waterfall {
 		padding: 10px 20px 30px; /* augšā - 10px, malās - 20px, apakšā - 30px */
 	}
-
+	
 	div.my-clockwise {
 		padding: 10px 20px 30px 40px; /* augšā - 10px, labajā malā - 20px, apakšā - 30px, kreisajā malā - 40px */
 	}
-        ```
+	```
    
    Atsevišķas atkāpes var norādīt, attiecīgi, ar īpašībām `padding-top`, `padding-right`, `padding-bottom` un `padding-left`.
 2. Robeža (*border*) &mdash; līnija elementa malās; kopējā CSS īpašība `border`, raksturojas ar:
