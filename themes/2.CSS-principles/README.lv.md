@@ -279,13 +279,16 @@ Blokmodelis ir pamata princips tam, kā uzvedas blokveida elements HTML-dokument
 Elementam ir 4 sastāvdaļas:
 
 0. Saturs (*content*) &mdash; pats elements, tā izmēru nosaka CSS īpašības `width` un `height`; vērtības norāda ar skaitli un mērvienību (px, em utt.):
+	
 	```css
 	div {
 		width: 100px;
 		height: 50px;
 	}
 	```
+
 1. Iekšējā atkāpe (*padding*) &mdash; elementa satura atkāpe no tā malām; CSS īpašība `padding`, vērtību norāda ar vienu līdz četiem skaitļiem un mērvienībām pie katra:
+
         ```css
         div.my-all {
                 padding: 20px;
